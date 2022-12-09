@@ -247,7 +247,7 @@ span.text-red {
   padding: 100px 40px;
   background-color: #FFAC1B;
   border-radius: 15px;
-  position: absolute;
+  position: relative;
   height: 400px;
   line-height: 1;
   color: #392b14;
@@ -337,7 +337,7 @@ span.text-red {
 .footer-container {
   color: #324d67;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 25px;
   padding: 30px 10px;
   font-weight: 700;
   display: flex;

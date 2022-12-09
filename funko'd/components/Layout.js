@@ -5,14 +5,14 @@ import Head from 'next/head'
 
 const Layout = ({ children }) => {
   return (
-    <div className='layout'>
+    <div className="layout">
       <Head>
         <title>Funko'd Store</title>
       </Head>
       <header>
         <Navbar />
       </header>
-      <main className='main-container'>
+      <main className="main-container">
         {children}
       </main>
       <footer>
