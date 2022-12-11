@@ -9,6 +9,11 @@ body,
 
 }
 
+.image-container img {
+  width: 350px;
+  height: 450px;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -486,6 +491,7 @@ span.text-red {
   display: flex;
   gap: 40px;
   margin: 40px;
+  width: 400px;
   margin-top: 60px;
   color: #324d67;
 
@@ -510,6 +516,8 @@ span.text-red {
   display: flex;
   gap: 10px;
   margin-top: 20px;
+  width: 250px;
+  height: 250px;
 }
 
 .small-image {
@@ -611,6 +619,7 @@ span.text-red {
 .quantity-desc {
   border: 1px solid gray;
   padding: 6px;
+
 }
 
 .quantity-desc span {
@@ -801,6 +810,7 @@ span.text-red {
     height: 350px;
   }
 
+
   .cart-container {
     width: 415px;
     padding: 4px;
@@ -899,4 +909,5 @@ span.text-red {
     width: 300px;
     margin: auto;
   }
+
 }
