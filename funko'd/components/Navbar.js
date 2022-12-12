@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link href='/'>Funko'd</Link>
 
       </p>
-      <button className='cart-icon' onClick=''>
+      <button className='cart-icon'>
         <AiOutlineShopping />
         <span className='cart-item-qty'>2</span>
       </button>
