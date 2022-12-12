@@ -42,6 +42,7 @@ export const StateContext = ({ children }) => {
 
 
     if (value === 'inc') {
+      //fixed the bug that changed the reordering of the product orders 
       setCartItems((prevCartItems) => {
         prevCartItems[index] = { ...foundProduct, quantity: foundProduct.quantity + 1, };
         return prevCartItems;
