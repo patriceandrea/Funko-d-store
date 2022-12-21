@@ -4,14 +4,19 @@ import { BsBagCheckFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
 
 import { useStateContext } from '../context/StateContext';
+import { runConfetti } from '../lib/utils';
 
 const Success = () => {
-  const { setCartItems, setTotalPrice, setTotalQuantity } = useStateContext();
+  const { setCartItems, setTotalPrice, setTotalQuantities } = useStateContext();
   const [order, setOrder] = useState(null);
 
 
   useEffect(() => {
-    localStorage.clear()
+    localStorage.clear();
+    setCartItems([]);
+    setTotalPrice(0);
+    setTotalQuantities(0);
+    runConfetti();
   }, []);
 
   return (
