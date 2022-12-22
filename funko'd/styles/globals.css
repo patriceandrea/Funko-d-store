@@ -168,6 +168,7 @@ span.text-red {
 
 .hero-banner-container .beats-solo {
   font-size: 20px;
+  margin-left: -20px;
 }
 
 .hero-banner-container button {
