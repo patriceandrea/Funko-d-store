@@ -144,6 +144,7 @@ span.text-red {
   transition: transform 0.5s ease;
   mix-blend-mode: multiply;
   width: 12em;
+  padding: 1em 1em 0.5em 1.5em;
 }
 
 .product-name {
