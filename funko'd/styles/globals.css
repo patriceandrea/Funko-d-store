@@ -12,6 +12,7 @@ body,
 .image-container img {
   width: 340px;
   height: 450px;
+  padding: 1em;
 }
 
 ::-webkit-scrollbar {
@@ -83,8 +84,9 @@ span.text-red {
 }
 
 .logo {
-  color: gray;
-  font-size: 18px;
+  color: rgb(92, 89, 89);
+  font-size: 20px;
+  font-weight: bold;
 
 }
 
@@ -526,10 +528,12 @@ span.text-red {
   width: 70px;
   height: 70px;
   cursor: pointer;
+  padding: 0.5em;
 }
 
 .selected-image {
   background-color: #f1bf34;
+  padding: 0.5em;
 }
 
 .reviews {

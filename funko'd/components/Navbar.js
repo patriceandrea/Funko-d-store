@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
       <p className='logo'>
-        <Link href='/'>Funko'd</Link>
+        <Link href='/'>Funko'd Store</Link>
 
       </p>
       <button className='cart-icon' onClick={() => setShowCart(true)}>
