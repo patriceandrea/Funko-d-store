@@ -49,4 +49,5 @@ npm run dev
 - Canvas-Confetti
 
 # Ressource 
-This is based on JavaScript Mastery's Build and Deploy a Modern Full Stack ECommerce React Application with Stripe: https://www.youtube.com/watch?v=4mOkFXyxfsU. This is built for learning purposes only. 
+This is based on JavaScript Mastery's Build and Deploy a Modern Full Stack ECommerce React Application with Stripe: https://www.youtube.com/watch?v=4mOkFXyxfsU. 
+This is built for learning purposes only. 
